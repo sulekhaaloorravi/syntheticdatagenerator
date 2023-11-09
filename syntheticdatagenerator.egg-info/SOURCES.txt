@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+syntheticdatagenerator/__init__.py
+syntheticdatagenerator/syntheticdatagenerator.py
+syntheticdatagenerator.egg-info/PKG-INFO
+syntheticdatagenerator.egg-info/SOURCES.txt
+syntheticdatagenerator.egg-info/dependency_links.txt
+syntheticdatagenerator.egg-info/requires.txt
+syntheticdatagenerator.egg-info/top_level.txt

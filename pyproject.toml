@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "syntheticdatagenerator"
+version = "0.0.1"
+authors = [
+  { name="Sulekha Aloorravi", email="sulekha.aloorravi@gmail.com" },
+]
+description = "A synthetic time series data generator."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ['numpy', 'pandas', 'random', 'copy', 'warnings']
+
+[project.urls]
+"Homepage" = "https://github.com/sulekhaaloorravi/syntheticdatagenerator"
