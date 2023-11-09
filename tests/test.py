@@ -1,11 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[22]:
-
-
-from syntheticdatagenerator import SyntheticDataGenerator
-sd = SyntheticDataGenerator()
+from syntheticdatagenerator import syntheticdatagenerator 
+sd = syntheticdatagenerator.SyntheticDataGenerator()
 data = sd.generate_timeseries('2000-01-01',end_date = '2023-10-20', frequency = 'D')
 num_features = 9
 name_features = ['Activity', 'HeartRate', 'Oxygen', 'Stress', 'ActivityTime', 'BodyTemperature', 'Calories', 'BloodSugarFasting', 'BloodSugarAfterFood']
