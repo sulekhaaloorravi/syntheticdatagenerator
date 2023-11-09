@@ -188,6 +188,6 @@ class SyntheticDataGenerator:
         values: The categorical text features needed in the input. Eg: ['male', 'female']
         '''
         np = __import__('numpy')
-        data[variable] = np.random.choice(list(activity), len(data['Date']))
+        data[variable] = np.random.choice(list(values), len(data['Date']))
         return data[variable]      
 
